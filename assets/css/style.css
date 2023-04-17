@@ -370,9 +370,18 @@
   }
   .footer__somethings {
     display: flex;
+    width: 50vw;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 8vw;
+  }
+  .footer__something__title {
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    border-bottom: none;
+  }
+  .footer__something__content li:hover {
+    color: #36bae6;
+    background-color: transparent;
   }
 }
